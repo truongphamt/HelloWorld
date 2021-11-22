@@ -6,7 +6,8 @@ namespace ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            foreach(int i in System.Linq.Enumerable.Range(1, 50))
+                Console.WriteLine("Hello World!");
         }
     }
 }
